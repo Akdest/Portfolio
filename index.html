@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="main.js"></script>
+
+</head>
+
+<body onload="logoload()">
+    <div class="bdy">
+
+
+        <header class="header">
+            <a href="#" class="logo" id="logo"></a>
+            <nav class="navbar" id="myTopnav">
+                <a href="#">Home</a>
+                <a href="#about" style="transition:3s forwards;">About</a>
+                <a href="#skill">Skills</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </nav>
+        </header>
+        <section class="home">
+            <div class="home-content">
+                <h1>Hello, It's Me</h1>
+                <h1>Ayush Kumar</h1>
+                <!-- <h3>And I'm a<span class="text"></span></h3> -->
+                <p>I'm a Front-End Web Developer with extensive experience for over 4 years,
+                    <br>with skills of HTML5, CSS3 and JS.
+                </p>
+
+                <div class="home-sci">
+                    <a href="https://www.linkedin.com/in/ayush-kumar-850044219/" target="_blank" class="active"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/Akdest" target="_blank"><i class='bx bxl-github'></i></a>
+                </div>
+                <a id="mr" href="#about" class="btn-box">About Me</a>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about-img">
+                <img class="prof-img"
+                    src="https://media.licdn.com/dms/image/D4D03AQH6pk0HN9vjaA/profile-displayphoto-shrink_200_200/0/1691694682316?e=1697068800&v=beta&t=bqEfBCGFe7j_RggIyaB-qsk6FfT-YtY4cCpfeYM9SgI"
+                    alt="profile-img" srcset="">
+            </div>
+            <div class="about-text">
+                <h2>About <span>Me</span></h2>
+                <h4>Front End Developer</h4>
+                <p>
+                    I'm a Undergraduate student at NIT Jalandhar with
+                    certification in Web Development. Skilled in HTML, CSS,
+                    JavaScript, Responsive Web Designing, and PHP, I'm
+                    passionate about creating impactful web experiences.
+                    I'm also highly communicative and collaborative.
+                </p>
+                <a href="https://www.linkedin.com/in/ayush-kumar-850044219/" target="_blank" class="btn-box">More About Me</a>
+            </div>
+        </section>
+
+        <div id="skill" class="skills-text">
+            <h2><span>My</span> Skills</h2>
+            <div>
+                <section>
+                    <!-- <img class="skill-img" src="https://imageio.forbes.com/specials-images/imageserve/630317507c39bc12ccfa8c6c/The-Top-10-Most-In-Demand-Skills-For-The-Next-10-Years/960x0.jpg?height=473&width=711&fit=bounds" alt="skills-img" srcset=""> -->
+                    <div class="container1" id="skills" style="display: inline-block;">
+                        <h1 class="heading1">Technical Skills</h1>
+                        <div class="technical-bars">
+                            <div class="bar"><i style="color: #c95d2e;" class='bx bxl-html5'></i>
+                                <div class="info">
+                                    <span>HTML</span>
+                                </div>
+                                <div class="progress-line-html">
+                                    <span></span>
+                                </div>
+							</div>
+							
+							<div class="bar"><i style="color: #147bbc;" class='bx bxl-css3'></i>
+										<div class="info">
+											<span>CSS</span>
+										</div>
+                                    <div class="progress-line-css">
+                                        <span></span>
+                                    </div>
+							</div>
+									
+                            <div class="bar"><i style="color: #b0bc1e;" class='bx bxl-javascript'></i>
+                                        <div class="info">
+                                            <span>JS</span>
+                                        </div>
+                                        <div class="progress-line-js">
+                                            <span></span>
+                                        </div>
+							</div>
+									
+                            <div class="bar"><i style="color: #05294bea;" class='bx bxl-python'></i>
+                                            <div class="info">
+                                                <span>Python</span>
+                                            </div>
+                                            <div class="progress-line-python">
+                                                <span></span>
+                                            </div>
+                            </div>
+                        </div>
+							
+                    </div>               
+                    
+					<div class="container1" style="display: inline-block;">
+                                        <h1 class="heading1" id="proff-text">Professional Skills</h1>
+                                        <div class="radial-bars">
+
+                                            <div class="radial-bar">
+                                                <svg x="0px" y="0px" viewbox="0 0 200 200">
+                                                    <circle class="progress-bar" cx="100" cy="100" r="88"></circle>
+                                                    <circle class="path path-1" cx="100" cy="100" r="88"></circle>
+                                                </svg>
+                                                <div class="percentage">85%</div>
+                                                <div class="text">Creativity</div>
+                                            </div>
+
+
+                                            <div class="radial-bar">
+
+                                                <svg x="0px" y="0px" viewbox="0 0 200 200">
+                                                    <circle class="progress-bar" cx="100" cy="100" r="88"></circle>
+                                                    <circle class="path path-2" cx="100" cy="100" r="88"></circle>
+                                                </svg>
+                                                <div class="percentage">90%</div>
+                                                <div class="text">Communication</div>
+                                            </div>
+
+                                            <div class="radial-bar">
+
+                                                <svg x="0px" y="0px" viewbox="0 0 200 200">
+                                                    <circle class="progress-bar" cx="100" cy="100" r="88"></circle>
+                                                    <circle class="path path-3" cx="100" cy="100" r="88"></circle>
+                                                </svg>
+                                                <div class="percentage">65%</div>
+                                                <div class="text">Problem Solving</div>
+                                                
+                                            </div>
+                                        </div>
+                     </div>                          
+				</section>
+			</div>
+		</div>
+                
+
+                <section class="car" id="portfolio">
+                    <div id="Projects" class="about-text">
+                        <h2><span>My</span>Projects</h2>
+                        <div>
+                    <div class="carousel-container">
+                        <div class="carousel">
+                            <div class="carousel-slide">
+                                <img src="https://drive.google.com/uc?export=view&id=1c5984TpK1uZnwkzfDXD0UrunhoPLnZXt"
+                                    alt="Windows_10">
+                                <div class="carousel-caption">Windows 10 Clone</div>
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="https://drive.google.com/uc?export=view&id=11GmGnONIX2luj-DFkvDu-fIO17UqmP1-"
+                                    alt="Image 2">
+                                <div class="carousel-caption">Paytm Clone</div>
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="https://drive.google.com/uc?export=view&id=12hLH1nHwkHDlUWgBsG7gpdY2rmrXiNfE"
+                                    alt="Image 3">
+                                <div class="carousel-caption">Mentora Website</div>
+                            </div>
+                            <a class="prev-button" onclick="prevSlide()">&#10094;</a>
+                            <a class="next-button" onclick="nextSlide()">&#10095;</a>
+                        </div>
+                    </div>
+
+                   
+                </section>
+
+                <section class="contact" id="contact">
+                    <div class="contact-text">
+                        <h2>Contact <span>Me</span></h2>
+                        <h4 id="lt">Let's Work Together</h4>
+                        <p>Hi It's me lets Connect.</p>
+                     
+                        <div class="contact-list">
+                            <li><i class='bx bxs-envelope bx-flashing'></i>
+                                <p>ayushkr0104@hotmail.com</p>
+                            </li>
+                        </div>
+                     
+                        <div class="contact-icons">
+                            <!-- <a href=""><i class='bx bxl-facebook-circle'></i></a> -->
+                            <a href="https://www.linkedin.com/in/ayush-kumar-850044219/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                            <a href="https://github.com/Akdest" target="_blank"><i class='bx bxl-github'></i></a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <form action="" method="post">
+                            <input type="text" placeholder="Enter your Name" required>
+                            <input type="email" placeholder="Enter your Email" required>
+                            <input type=" text" placeholder="Enter your Subject" required>
+                            <textarea name="" id="" cols="40" rows="10" placeholder="Enter your Mesaage"
+                                required></textarea>
+                            <input type="submit" value="Submit" class="send">
+               
+                        </form>
+                    </div>
+                </section>
+                <section>
+                    <div class="copy">
+                        <p>Ayush Kumar <i class='bx bx-copyright'></i>2023</p>
+                    </div>
+
+                    <a href="#" class="top"><i class='bx bxs-chevron-up'></i></a>
+                </section>
+            </div>
+</body>
+
+</html>
